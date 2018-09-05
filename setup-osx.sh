@@ -5,11 +5,15 @@ echo '============================================================> Installing h
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew install ag
 brew install cowsay
+brew install coreutils
 brew install fortune
+brew install gpg
 brew install thefuck
 brew install tmux
 brew install vim
+brew install watch
 brew install zsh
+brew cask install chromedriver
 brew cask install iterm2
 brew install --HEAD universal-ctags/universal-ctags/universal-ctags
 
