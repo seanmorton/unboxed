@@ -3,12 +3,13 @@ xcode-select install
 
 echo '============================================================> Installing homebrew & packages..'
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew install vim
-brew install tmux
-brew install zsh
-brew install thefuck
 brew install ag
+brew install cowsay
+brew install fortune
+brew install thefuck
+brew install tmux
 brew install vim
+brew install zsh
 brew cask install iterm2
 brew install --HEAD universal-ctags/universal-ctags/universal-ctags
 
@@ -25,12 +26,12 @@ ssh-add -K ~/.ssh/id_rsa
 
 echo '============================================================> Copying configuration from dotfiles..'
 git clone git@github.com:seanmorton/dotfiles.git ~/.dotfiles
-cp ~/.dotfiles/.zshrc ~/.zshrc
-cp ~/.dotfiles/.tmux.conf ~/.tmux.conf
+cp ~/.dotfiles/.agignore  ~/.agignore
 cp ~/.dotfiles/.gitconfig  ~/.gitconfig
 cp ~/.dotfiles/.gitignore  ~/.gitignore
-cp ~/.dotfiles/.agignore  ~/.agignore
+cp ~/.dotfiles/.tmux.conf ~/.tmux.conf
 cp ~/.dotfiles/.vimrc  ~/.vimrc
+cp ~/.dotfiles/.zshrc ~/.zshrc
 mkdir -p ~/.config
 cp -R ~/.dotfiles/config/iterm2 ~/.config/
 
