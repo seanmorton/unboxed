@@ -27,6 +27,7 @@ echo '============================================================> Copying conf
 git clone git@github.com:seanmorton/dotfiles.git ~/.dotfiles
 cp ~/.dotfiles/.zshrc ~/.zshrc
 cp ~/.dotfiles/.tmux.conf ~/.tmux.conf
+cp ~/.dotfiles/.gitconfig  ~/.gitconfig
 cp ~/.dotfiles/.gitignore  ~/.gitignore
 cp ~/.dotfiles/.agignore  ~/.agignore
 cp ~/.dotfiles/.vimrc  ~/.vimrc
