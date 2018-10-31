@@ -41,7 +41,7 @@ mkdir -p ~/.config
 cp -R ~/.dotfiles/config/iterm2 ~/.config/
 
 echo '============================================================> Installing Vim plugins..'
-~/.dotfiles/vim/install.sh
+~/.dotfiles/vim/install_plugins.sh
 
 echo '============================================================> Changing default shell to zsh..'
 chsh -s $(which zsh)
