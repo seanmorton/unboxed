@@ -13,6 +13,7 @@ brew install tmux
 brew install vim
 brew install watch
 brew install zsh
+brew install fzf
 brew cask install chromedriver
 brew cask install iterm2
 brew install --HEAD universal-ctags/universal-ctags/universal-ctags
