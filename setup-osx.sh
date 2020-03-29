@@ -12,6 +12,7 @@ brew install tmux
 brew install vim
 brew install watch
 brew install zsh
+brew install fzf
 brew cask install chromedriver
 brew cask install iterm2
 brew install --HEAD universal-ctags/universal-ctags/universal-ctags
@@ -40,6 +41,10 @@ cp -R ~/.dotfiles/config/iterm2 ~/.config/
 
 echo '============================================================> Installing Vim plugins...'
 ~/.dotfiles/vim/install.sh
+=======
+echo '============================================================> Installing Vim plugins..'
+~/.dotfiles/vim/install_plugins.sh
+>>>>>>> 3a6a2ccc8717546d13996965c215991d29ec43fb
 
 echo '============================================================> Configuring git...'
 git config --global core.excludesfile ~/.gitignore
